@@ -1,26 +1,20 @@
 import './App.css'
-import Cards from './components/Cards/Cards'
+import AllCards from './components/AllCards/AllCards'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
+import SearchCountry from './components/SearchCountry/SearchCountry'
 
 function App() {
   return (
     <>
-     <Header/>
-     <main>
-      <ul>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-      </ul>
-     </main>
-     <Footer/>
+   <header><Header/></header>
+   <main>
+   <AllCards/>
+    <SearchCountry/>
+   </main>
+   <footer>
+   <Footer/>
+   </footer>
     </>
   )
 }

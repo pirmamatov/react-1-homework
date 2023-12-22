@@ -1,32 +1,28 @@
-*{
-    cursor: pointer;
-}
-li{
-    width: 460px;
-    border: .5px solid black;
-    padding: 10px;
+li {
+    width: 250px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: hsl(209, 23%, 22%);
+    color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    border-radius: 5px;
-}
-li:hover {
-    box-shadow: 10px 10px;
+    align-items: center;
 }
 
-ul {
-    margin: 20px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-    list-style-type: none;
+.country__img {
+    height: 130px;
+    width: 250px;
+    border-radius: 5px 5px 0px 0px;
+    object-fit: cover;
 }
-img {
-    border-radius: 5px;
+li h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
 }
-h4 {
-    padding: 5px;
+li p {
+    margin-bottom: 10px;
+    font-weight: 400;
+    opacity: 80%;
 }

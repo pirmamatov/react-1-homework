@@ -1,0 +1,10 @@
+.all-country-wrapper {
+    width: 1140px;
+    padding: 0px 15px;
+    margin: auto !important;
+    padding-top: 100px;
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
